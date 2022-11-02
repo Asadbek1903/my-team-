@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'Livvic';
+    src: url('../fonts/Livvic-SemiBold.woff2') format('woff2'),
+        url('../fonts/Livvic-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Livvic';
+    src: url('../fonts/Livvic-Bold.woff2') format('woff2'),
+        url('../fonts/Livvic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Livvic", sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/*Header section*/
+.header-inner{
+    padding-top: 77px;
+    background-color: #014E56;
+    display: flex;
+    align-items: center;
+}
+.my-team{
+ margin-right: 40px;
+ margin-left: 165px;
+}
+.header-link{
+    text-decoration: none;
+    color: #ffffff;
+    height: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 40px;
+}
+.header-link2{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color: #ffffff;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    padding: 12px 33px 11px 32px;
+    margin-left: 577px;
+    margin-bottom: 25px;
+}
+/*End of Header section*/
+/*Main section*/
+.find{
+    background-color: #014E56;
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading{
+    margin: 133px 30px 250px 165px;
+    width: 635px;
+    height: 200px;
+    font-weight: 700;
+    font-size: 100px;
+    color: #ffffff;
+}
+.red{
+    color: #F67E7E;
+}
+.line{
+    margin-top: 133px;
+    background-color: #79C8C7;
+    border: none;
+    width: 50px;
+    height: 4px;
+}
+.find-info{
+    margin-top: 79px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    height: 112px;
+    margin-right: 165px;
+}
+.build{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 140px;
+    background-color: #012F34;
+}
+.building{
+    margin-top: 0;
+background-color: #F67E7E;
+margin-left: 165px;
+margin-bottom: 54px;
+}
+.build-manage{
+    color: #ffffff;
+    width: 445px;
+    height: 144px;
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 165px;
+    margin-bottom: 342px;
+}
+.build-list-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.build-img{
+    margin-right: 50px;
+}
+.build-topics{
+    height: 28px;
+    color: #F67E7E;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.build-topics-info{
+    height: 50px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 32px;
+}
+.success-stories{
+    padding: 140px 164px 151px;
+    background-color: #004047;
+}
+.stories{
+    text-align: center;
+    margin-left: 89px;
+    margin-bottom: 92px;
+    color: #ffffff;
+    width: 932px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 48px;
+}
+.green{
+    color: #79C8C7;
+}
+.stories-list{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.story-info{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    height: 100px;
+    margin-bottom: 24px;
+}
+.name-holder{
+    color: #79C8C7;
+    font-weight: 700;
+    font-size: 18px;
+    height: 28px;
+    margin-bottom: 2px;
+}
+.occupation{
+    font-size: 13px;
+    color: #ffffff;
+    height: 18px;
+    margin-bottom: 32px;
+}
+/*End of Main section*/
+/*Footer section*/
+.upper-footer{
+    background-color: #F67E7E;
+    padding: 76px 260px;
+    display: flex;
+    justify-content: space-between;
+}
+.ready{
+    color: #012F34;
+    font-weight: 700;
+    font-size: 48px;
+    height: 48px;
+}
+.footer-link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    color:#012F34;
+    background-color: #F67E7E;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    padding: 12px 33px 13px 32px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #002529;
+    padding: 48px 165px 55px;
+}
+.my-team2{
+    margin-right: 125px;
+    padding-bottom: 25px;
+}
+.footer-link2{
+    text-decoration: none;
+    color: #ffffff;
+    height: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 25px;
+}
+.footer-link2+ .footer-link2{
+    margin-left: 40px;
+    
+}
+.address{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 15px;
+    opacity: 0.6;
+    height: 100px;
+}
+.social-media-icon{
+    margin-left: 16px;
+    margin-bottom: 51px;
+}
+.reference{
+    color: #ffffff;
+    opacity: 0.6;
+    font-weight: 600;
+    font-size: 15px;
+    height: 25px;
+}
+/*End of Footer section*/
